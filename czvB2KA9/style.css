@@ -1,0 +1,105 @@
+body { 
+    font-family: 'Quintessential', cursive;
+    border: 2px solid steelblue;
+    border-radius: 5px;
+     max-width: 800px;
+}
+
+.container{
+    
+    width:600px;
+    height: 400px;
+    display:flex;
+    
+
+}
+h1{
+    margin: 20px;
+}
+
+.btn{ 
+    margin:20px;
+    padding: 10px 20px;
+    width:75px;
+    height:42px;
+    margin-left: 250px;
+    background-color: black;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    
+}
+.task{
+ background-color:lightgray;
+ margin: 30px;
+ cursor:pointer;
+ width:500px;
+ position: relative;
+ bottom:250px;
+ height:70px
+ 
+}
+
+h3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+  
+ 
+.task.reminder {
+  border-left: 2px solid green;
+  
+}
+
+.img{
+    cursor:pointer;
+    color:red;
+    width: 20px;
+}
+.add-form {
+  margin-bottom: 40px;
+  position: relative;
+  bottom: 300px;
+  margin: 20px
+}
+
+.form-control {
+  margin: 20px ;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  width: 80%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.form-control-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-control-check label {
+  flex: 1;
+}
+
+.form-control-check input {
+  flex: 2;
+  height: 20px;
+}
+
+
+.button{
+    width:100%;
+    height: 40px;
+    color:#D3D3D3;
+    background-color: black;
+    border:none;
+}
